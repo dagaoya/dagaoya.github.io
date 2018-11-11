@@ -1,0 +1,26 @@
+name: 回收站
+author: 大高呀
+#baseurl: /liangren.com
+keywords: github,jekyll,常用软件,资源收藏
+description: 日常收集的一些资源
+github: https://github.com/dagaoya
+email: NoEmail
+
+
+encoding: utf-8
+#highlighter: rouge
+markdown: kramdown
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

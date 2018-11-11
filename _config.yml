@@ -1,10 +1,10 @@
-name: 良仔的博客
-author: liangren.com
+name: 资源站
+author: dagaoya
 #baseurl: /liangren.com
-keywords: java,github,git,jekyll,gollum,jquery,flash,良先生,良仔
-description: 一个小白码农的博客
-github: https://github.com/liangrengongzuoshi
-email: crawler_vip@163.com
+keywords: github,jekyll,实用软件,收集资源,大高呀
+description: 互联网搬运工
+github: https://github.com/dagaoya
+email: NoEmail@163.com
 
 
 encoding: utf-8
