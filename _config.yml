@@ -1,10 +1,10 @@
-name: 回收站
-author: 大高呀
+name: 良仔的博客
+author: liangren.com
 #baseurl: /liangren.com
-keywords: github,jekyll,常用软件,资源收藏
-description: 日常收集的一些资源
-github: https://github.com/dagaoya
-email: NoEmail
+keywords: java,github,git,jekyll,gollum,jquery,flash,良先生,良仔
+description: 一个小白码农的博客
+github: https://github.com/liangrengongzuoshi
+email: crawler_vip@163.com
 
 
 encoding: utf-8
