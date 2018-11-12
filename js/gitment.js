@@ -3116,7 +3116,7 @@ function renderFooter() {
   var container = document.createElement('div');
   container.lang = "en-US";
   container.className = 'gitment-container gitment-footer-container';
-  container.innerHTML = '\n    由\n    <a class="gitment-footer-project-link" href="https://github.com/imsun/gitment" target="_blank">\n      Gitment\n    </a> 强力驱动\n · <a href="https://billts.site">码农BTS</a> 汉化 ';
+  container.innerHTML = '\n    没有GitHub账号？去\n    <a class="gitment-footer-project-link" href="https://support.qq.com/products/42868" target="_blank">\n      这里\n    </a> 反馈\n';
   return container;
 }
 
