@@ -1,6 +1,6 @@
-# [Mr.Liang's blog](https://liangrengongzuoshi.github.io/liangzai.pub/ "良先生的博客")
+# [资源站](https://dagaoya.github.io/ "资源站")
 
-http://liangzai.pub
+# Fork自 [Mr.Liang's blog](https://liangrengongzuoshi.github.io/liangzai.pub/ "良先生的博客")
 
 ---
 # markdown test
