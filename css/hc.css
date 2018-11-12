@@ -1,11 +1,25 @@
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 */
+html {
+  overflow-y: scroll;
+}
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
 body {
 	color: #2c3e50;
 	background-color: #f0f0f0;
 	width: 100%;
 	border-top: solid #d90006;
 	border-width: 4px;
+	overflow: hidden;
+
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Helvetica Neue", helvetica, "Open Sans", sans-serif;
