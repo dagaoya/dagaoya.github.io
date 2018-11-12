@@ -644,7 +644,7 @@ time {
 #rocket-to-top .level-2 {
     background:url("images/rocket_button_up.png") no-repeat scroll -149px 0 transparent;
     display:none;
-    height:150px;
+    height:120px;
     opacity:0;
     z-index:1;
 }
@@ -659,13 +659,13 @@ time {
     background:url("images/rocket_button_up.png") no-repeat scroll 0 0 transparent;
     cursor:default;
     display:block;
-    height:150px;
+    height:120px;
     margin:-125px 0 0;
     overflow:hidden;
     padding:0;
     position:fixed;
     right:0;
-    top:80%;
+    top:76%;
     width:149px;
     z-index:11;
 }
