@@ -81,8 +81,26 @@ title: 关于本站
      </div> 
     </div> 
    </div> 
+   <!-- gitment begin -->
+	<div id="gitment"></div>
+	<!-- <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+	<script src="https://jjeejj.github.io/js/gitment.js"></script> -->
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/gitment.css">
+	<script src="{{ site.baseurl }}/js/gitment.js"></script>
+	<script>
+	var gitment=new Gitment({
+		id:'talk',
+		owner:'dagaoya',
+		repo:'dagaoya.github.io',
+		oauth:{
+			client_id:'d2c34083e1232b96bbb8',
+			client_secret:'6f2942275af895fd89e64266dca424d38bda3091'
+		}
+	});
+	gitment.render('gitment');
+	</script> 
+	<!-- gitment end -->
   </div>
-</div>
 <script type="text/javascript">
 	$(function(){
 		var tabNum=$(".important").find("li");
