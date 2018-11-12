@@ -2,32 +2,33 @@
 title: 你吐我槽
 ---
 <div id="article" aos="zoom-in">
-  <h1 align="center"><span>文明</span>吐槽</h1>
-  <div class="div-talk-pic"><img alt="文明吐槽" title="文明吐槽" src="{{ site.baseurl }}/images/xu.gif"></div>
-  <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<h1 align="center"><span>文明</span>吐槽</h1>
+<div class="div-talk-pic"><img alt="文明吐槽" title="文明吐槽" src="{{ site.baseurl }}/images/xu.gif"></div>
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
 <!-- 
-  <!-- gitment begin -->
-  <div id="gitment"></div>
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://jjeejj.github.io/js/gitment.js"></script>
-  <script>
-  var gitment=new Gitment({
-		id:'talk',
-		owner:'dagaoya',
-		repo:'dagaoya.github.io',
-		oauth:{
-			client_id:'d2c34083e1232b96bbb8',
-			client_secret:'6f2942275af895fd89e64266dca424d38bda3091'
-		}
-  });
-  gitment.render('gitment');
-  </script> 
-  <!-- gitment end -->
-  
-  <div>
-  <a src='https://support.qq.com/products/42868'>去反馈</a>
-  
-  </div>
+<!-- gitment begin -->
+<div id="gitment"></div>
+<!-- <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script> -->
+<link rel="stylesheet" href="{{ site.baseurl }}/css/gitment.css">
+<script src="{{ site.baseurl }}/js/gitment.js"></script>
+<script>
+var gitment=new Gitment({
+	id:'talk',
+	owner:'dagaoya',
+	repo:'dagaoya.github.io',
+	oauth:{
+		client_id:'d2c34083e1232b96bbb8',
+		client_secret:'6f2942275af895fd89e64266dca424d38bda3091'
+	}
+});
+gitment.render('gitment');
+</script> 
+<!-- gitment end -->
+
+
+<a src='https://support.qq.com/products/42868'>去反馈</a>
+
 
 </div>
 <!--
