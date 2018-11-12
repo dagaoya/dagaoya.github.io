@@ -12,7 +12,8 @@ encoding: utf-8
 markdown: kramdown
 redcarpet:
   extensions: ["tables"]
-
+paginate:10
+paginate_path: "page:num"
 defaults:
   - scope:
       path: ""
