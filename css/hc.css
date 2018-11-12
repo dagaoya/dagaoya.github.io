@@ -664,7 +664,7 @@ time {
     overflow:hidden;
     padding:0;
     position:fixed;
-    right:0;
+    right:-10px;
     top:76%;
     width:149px;
     z-index:11;
