@@ -6,7 +6,7 @@ category: pc
 <div id="article" aos="zoom-in">
 	<h1 align="center"><span>目</span>录</h1>
 <h4>Category</h4>
-{% for post in site.categories.pc %}
+{% for post in site.categories.[page.category] %}
     {{ post.date }} {{ post.title }}
 {% endfor %}
 	<div class="time-h3 moatext_lens"><h3 align="center">岁月你别催 · 该来的我不推</h3></div>
