@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Storm yaml
+category: pc
 ---
 
 ##### storm.yaml配置

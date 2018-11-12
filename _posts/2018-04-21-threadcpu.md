@@ -1,6 +1,7 @@
 ---
 layout: post
 title: thread-core-cpu
+category: pc
 ---
 
 ### CPU、核、线程

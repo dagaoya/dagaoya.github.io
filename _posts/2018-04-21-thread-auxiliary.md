@@ -1,6 +1,7 @@
 ---
 layout: post
 title: thread-auxiliary
+category: pc
 ---
 
 #### 多线程辅助类

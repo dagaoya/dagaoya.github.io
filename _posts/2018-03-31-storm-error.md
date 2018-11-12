@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Storm Error Record
+category: pc
 ---
 
 

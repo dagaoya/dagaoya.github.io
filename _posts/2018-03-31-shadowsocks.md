@@ -1,6 +1,7 @@
 ---
 layout: post
 title: shadowsocks科学上网
+category: pc
 ---
 
 #### 下载安装包并执行

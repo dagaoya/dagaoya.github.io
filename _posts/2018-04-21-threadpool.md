@@ -1,6 +1,7 @@
 ---
 layout: post
 title: thread-pool(java)
+category: pc
 ---
 
 

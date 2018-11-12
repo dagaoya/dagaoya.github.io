@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Storm 读取kafka
+category: pc
 ---
 
 #### storm 读取kafka消息配置
