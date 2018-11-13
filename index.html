@@ -46,7 +46,7 @@ title: 资源站
 				  <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
 				{% endif %}
 			{% endfor %} -->
-		<span>{{ paginator.page }}/{{ paginator.total_pages }}</span>
+		<!-- <span>{{ paginator.page }}/{{ paginator.total_pages }}</span> -->
 		{% if paginator.next_page %}
 			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
 			<!-- <a href="/page{{ paginator.total_pages }}">尾页</a> -->
