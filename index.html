@@ -18,7 +18,7 @@ title: 资源站
 		</li>
 	{% endfor %}
 	</ul>
-	<div class="pagination">
+<!-- 	<div class="pagination">
 		{% if paginator.previous_page %}
 		<a href="/page{{ paginator.previous_page }}" class="previous">上一页</a>
 		{% else %}
@@ -30,7 +30,29 @@ title: 资源站
 		{% else %}
 		<span class="next ">下一页</span>
 		{% endif %}
-	</div>
+	</div> -->
+	{% if paginator.total_pages > 1 %}
+		<!-- 分页代码 -->
+		{% if paginator.previous_page %}
+		<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
+		{% endif %}
+		
+		{% for page in paginator.total_pages %}
+			{% if page == paginator.page %}
+			  <span class="active">{{ page }}</span>
+			{% elsif page == 1 %}
+			  <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+			{% else %}
+			  <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+			{% endif %}
+		{% endfor %}
+
+		{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页</a>
+		{% endif %}
+
+	{% endif %}
+
 </div>
 
 <script src="{{ site.baseurl }}/js/time.js"></script>
