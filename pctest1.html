@@ -5,7 +5,7 @@ category: pc
 <div id="article" aos="zoom-in">
   <h1 align="center"><span>电脑</span>软件</h1>
   <ul class="posts">
-	{% for post in site.categories.[pc].last %}
+	{% for post in site.categories.[page.category].last %}
 
 		<li>
 		<span class="blog-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
