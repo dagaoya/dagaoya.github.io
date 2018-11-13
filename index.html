@@ -18,7 +18,7 @@ title: 资源站
 		</li>
 	{% endfor %}
 	</ul>
-
+	<p align="right">
 	{% if paginator.total_pages > 1 %}
 		<!-- 分页代码 -->
 		{% if paginator.previous_page %}
@@ -42,7 +42,7 @@ title: 资源站
 		{% endif %}
 
 	{% endif %}
-
+	</p>
 </div>
 
 <script src="{{ site.baseurl }}/js/time.js"></script>
