@@ -4,19 +4,19 @@ title: SSR搭建
 category: others
 ---
 
+### 带后台的ssr搭建方法
 ---
-## 带后台的ssr搭建方法
----
-### 后台搭建
+#### 后台搭建
 > [https://github.com/dagaoya/ssr-web_admin](https://github.com/dagaoya/ssr-web_admin)
-### 服务端搭建
+
+#### 服务端搭建
 > [https://github.com/dagaoya/SSR_server](https://github.com/dagaoya/SSR_server)
 
 ---
-## 手动搭建方法（未测试）
----
+### 手动搭建方法（未测试）
 
-### 下载安装包并执行
+
+##### 下载安装包并执行
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 chmod a+x shadowsocks.sh && ./shadowsocks.sh   // 按指示输入密码、端口等
@@ -24,7 +24,8 @@ chmod a+x shadowsocks.sh && ./shadowsocks.sh   // 按指示输入密码、端口
 ```
 
 ---
-### 起止命令
+
+#### 起止命令
 
 ```
 /etc/init.d/shadowsocks  start
@@ -35,7 +36,8 @@ chmod a+x shadowsocks.sh && ./shadowsocks.sh   // 按指示输入密码、端口
 ```
 
 ---
-### python方式
+
+#### python方式
 
 ```
 apt-get install python-pip
@@ -47,7 +49,7 @@ sslocal -c /etc/shadowsocks.json -d start/stop/restart		//客户端
 ```
 
 ---
-### 配置(服务端)
+#### 配置(服务端)
 
 ```
 /etc/shadowsocks.json
@@ -67,7 +69,7 @@ sslocal -c /etc/shadowsocks.json -d start/stop/restart		//客户端
 ```
 
 ---
-### 配置(客户端)
+#### 配置(客户端)
 
 ```
 {
@@ -85,9 +87,9 @@ sslocal -c /etc/shadowsocks.json -d start/stop/restart		//客户端
 ```
 
 ---
-### 安装libsodium支持chacha20编码
+#### 安装libsodium支持chacha20编码
 
-#### centos
+##### centos
 ```
 yum -y groupinstall "Development Tools"
 wget https://github.com/jedisct1/libsodium/releases/download/1.0.11/libsodium-1.0.11.tar.gz
@@ -98,7 +100,7 @@ ldconfig
 
 ```
 
-#### ubuntu
+##### ubuntu
 ```
 apt-get install build-essential
 wget https://github.com/jedisct1/libsodium/releases/download/1.0.11/libsodium-1.0.11.tar.gz
@@ -109,7 +111,7 @@ ldconfig
 ```
 
 ---
-### 防火墙，添加端口
+#### 防火墙，添加端口
 
 ```
 firewall-cmd --permanent --zone=public --add-port=你的端口/tcp
@@ -117,4 +119,4 @@ firewall-cmd --reload
 systemctl stop firewalld	// 关闭防火墙
 
 ```
-
+---
