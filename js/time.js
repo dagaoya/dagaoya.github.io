@@ -33,7 +33,7 @@
 		ctx.textAlign="center";  
 		ctx.textBaseLine="middle";  
 		for(var i=0; i<12; i++){  
-			var tag1=Math.PI*2*(3-i)/12;  
+			var tag1=Math.PI-Math.PI*2*(3-i)/12;  //调整角度
 			var tx=tlen * Math.cos(tag1);  
 			var ty=-tlen * Math.sin(tag1);  
 			ctx.fillText(12-i,tx,ty+5);  
@@ -47,19 +47,19 @@
 			h=h-12;  
 		}
 		//绘制时针  
-		var angle1 = Math.PI * 2 *(3 - (h + m/60))/12;  
+		var angle1 =360- Math.PI * 2 *(3 - (h + m/60))/12;  
 		var length1=len * 0.55;  
 		var width1=5;  
 		var color1="#000000";  
 		drawhand(angle1,length1,width1,color1);  
 		//绘制分针  
-		var angle2 = Math.PI * 2 *(15 - (m+ s/60))/60;  
+		var angle2 =360- Math.PI * 2 *(15 - (m+ s/60))/60;  
 		var length2=len * 0.72;  
 		var width2=3;  
 		var color2="#555555";  
 		drawhand(angle2,length2,width2,color2);  
 		//绘制秒针  
-		var angle3 = Math.PI * 2 *(15 - s)/60;  
+		var angle3 =360- Math.PI * 2 *(15 - s)/60;  
 		var length3=len * 0.82;  
 		var width3=1;  
 		var color3="#aa0000";  
