@@ -19,12 +19,18 @@ category: others
 
 自己需求不多，就记录下自己安装Sublime Text3的主要步骤。
 
-1. 官网下载最新的安装包：[http://www.sublimetext.com/3](http://www.sublimetext.com/3)
-2. 安装软件，一路默认，安装完成后打开软件，是英文界面。
-3. 注册软件
+#### 1. 下载最新的安装包。
+
+官网下载最新的安装包：[http://www.sublimetext.com/3](http://www.sublimetext.com/3)
+
+#### 2. 安装软件。
+
+一路默认，安装完成后打开软件，是英文界面。
+
+#### 3. 注册软件。
 
 在工具栏中，help --> enter license，在弹窗中输入注册码，注册码失效可以在网上搜索，有时可能要多试几次。
- 
+
 ```
 —– BEGIN LICENSE —–
 
@@ -52,24 +58,23 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 ```
  
 
-4. 安装 Package Control
+#### 4. 安装 Package Control
 
 在软件中使用快捷键 ctrl + ` (数字键1前面那个)，程序界面下面会显示出Console，复制以下命令粘贴到Console，点击回车键：
 
-Sublime Text3：
 ```
 import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path; urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read; dh = hashlib.sha256(by).hexdigest; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 ```
 
 安装完成后，在工具栏Preferences下面查找Package Control，如果存在Package Control则说明安装成功。
 
-5. 安装插件以设置语言
+#### 5. 安装插件以设置语言
 
 为了顺利使用，可以把语言设置为简体中文。
 
 使用快捷键 Ctrl + Shift + P，打开Package Control，输入install，选择Install Package，回车，在输入Chinese，选择ChineseLocalization 插件，该插件将自动安装。安装完成后一般会自动将程序语言切换为简体中文，也可以在帮助（Help）中的Language下选择语言，目前有简体中文、繁体中文、日语、英语可供选择。
 
-6. 安装插件
+#### 6. 安装插件
 
 在网上搜索自己需要的环境的常用插件，我直接查找，按照第4步的方法安装。
 
@@ -83,6 +88,6 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 
 插件目录在软件内找：菜单->preferences->packages
 
-> 插件包：[SublimeText3plugin.zip]((https://raw.githubusercontent.com/dagaoya/download/master/PC/SublimeText3plugin.zip)
+> 插件包：[SublimeText3plugin.zip](https://raw.githubusercontent.com/dagaoya/download/master/PC/SublimeText3plugin.zip)
 
 
