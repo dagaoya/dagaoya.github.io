@@ -1,7 +1,7 @@
 ---
 layout: post
 title: [动漫]蜘蛛侠：平行宇宙.中英双字[1080P]
-category: Video
+category: video
 ---
 六只蜘蛛侠同屏。
 
