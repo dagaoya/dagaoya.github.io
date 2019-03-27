@@ -8,7 +8,8 @@ category: video
 ---
 
 
-![图片](/pic/poster/spiderman.jpg "spiderman");{:height="400" width="200"}
+![图片](/pic/poster/spiderman.jpg "spiderman")
+;{:height="400" width="200"}
 
 ◎译　　名　蜘蛛侠：平行宇宙 / Spider-Man: a New Universe / 蜘蛛人：新宇宙(台) / 蜘蛛侠：平行世界 / 蜘蛛侠：新纪元 / 蜘蛛侠：跳入蜘蛛宇宙(港)
 
